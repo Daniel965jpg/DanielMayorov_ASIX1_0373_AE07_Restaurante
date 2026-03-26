@@ -1,0 +1,237 @@
+/* Importamos las fuentes de Google: Alfa Slab One (Títulos), Oswald (Nombres), Roboto (Descripciones) */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Oswald:wght@500;700&family=Roboto:wght@400;500&display=swap');
+
+/* Estilos Generales - Fondo Rojo Burdeos */
+html, body {
+    background-color: #5c0f1c; /* Pone el color de fondo rojo burdeos a toda la web */
+    font-family: 'Roboto', sans-serif; /* Usa el tipo de letra Roboto para los textos normales */
+    
+    width: 100%; /* Asegura que la web ocupe el 100% del ancho de la pantalla */
+    max-width: 100%; /* Evita que la web se haga más ancha que la propia pantalla */
+    overflow-x: hidden; /* Esconde la barra de desplazamiento horizontal para que no se corte en móviles */
+    margin: 0; /* Quita los márgenes exteriores que pone el navegador por defecto */
+    padding: 0; /* Quita los márgenes interiores por defecto */
+}
+
+/* Scroll suave al hacer clic en la flecha de subir) */
+html {
+    scroll-behavior: smooth; /* Cuando navegues por la página sea suave y no de golpe */
+}
+
+/* Cabecera oscura para resaltar sobre el burdeos */
+.cabecera-restaurante {
+    background-color: #1a1a1a; /* Pone el fondo de la cabecera gris muy oscuro */
+    color: #ffffff; /* Pone el texto de la cabecera en color blanco */
+    border-bottom: 5px solid #f2b705; /* Dibuja una línea gruesa de color mostaza en la parte baja */
+}
+
+/* --- CLASES LIMPIAS (Para organizar la cabecera sin usar Bootstrap) --- */
+.cabecera-layout {
+    display: flex; /* Activa Flexbox para colocar los elementos fácilmente */
+    flex-direction: column; /* Pone los elementos en columna (uno debajo de otro) para móviles */
+    align-items: center; /* Centra los elementos de manera horizontal */
+    text-align: center; /* Centra el texto */
+    gap: 1.5rem; /* Deja un hueco de separación entre el logo y el texto */
+}
+
+
+@media (min-width: 768px) {
+    .cabecera-layout {
+        flex-direction: row; /* Pone el logo y el texto en fila (uno al lado del otro) */
+        text-align: left; /* Alinea el texto a la izquierda */
+        justify-content: center; /* Centra todo el conjunto en medio de la pantalla */
+        gap: 3rem; /* Hace la separación entre logo y texto más grande */
+    }
+}
+
+.plato-cabecera {
+    display: flex; /* Activa Flexbox para alinear nombre y precio */
+    justify-content: space-between; /* Pone el nombre a la izquierda y el precio a la derecha */
+    align-items: center; /* Centra los dos textos a la misma altura vertical */
+    margin-bottom: 0.5rem; /* Deja un poco de margen por la parte de abajo */
+    flex-wrap: wrap; /* Permite que el precio baje de línea si no cabe en la pantalla del móvil */
+}
+
+.plato-pie {
+    display: flex; /* Activa Flexbox para alinear calorías y alérgenos */
+    justify-content: space-between; /* Pone calorías a la izquierda y alérgenos a la derecha */
+    align-items: flex-end; /* Los alinea por la parte de abajo */
+    margin-top: 1rem; /* Deja un poco de margen por la parte de arriba */
+}
+
+.etiqueta-alergeno {
+    background-color: #ffffff; /* Pone el fondo de la etiqueta en color blanco */
+    color: #212529; /* Pone el texto de la etiqueta en color gris oscuro */
+    border: 1px solid #dee2e6; /* Le pone un borde muy finito de color gris claro */
+    padding: 0.5rem; /* Deja un espacio interior para que el texto respire */
+    font-size: 1rem; /* Tamaño de letra normal */
+    border-radius: 0.375rem; /* Redondea un poco las esquinas de la etiqueta */
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075); /* Le da una sombrita muy suave */
+    display: inline-block; /* Permite que se pongan unas al lado de las otras sin romperse */
+    font-weight: 500; /* Pone la letra un poco más gordita */
+}
+
+/* Estilos de la imagen del Logo */
+.logo-principal {
+    max-width: 600px; /* El logo no podrá medir más de 600 píxeles de ancho */
+    width: 100%; /* Se adaptará al 100% si la pantalla es más pequeña que 600px */
+    height: auto; /* Mantiene la proporción de la imagen para que no se achate */
+    display: block; /* Hace de bloque independiente */
+    filter: drop-shadow(0 6px 12px rgba(0,0,0,0.7)); /* Le pone una sombra con la forma del logo */
+    transition: transform 0.3s ease; /* Prepara una animación de 0.3 segundos al pasar el ratón */
+}
+.logo-principal:hover {
+    transform: scale(1.03); /* Cuando pasas el ratón, el logo se hace un 3% más grande */
+}
+.texto-wrapper {
+    max-width: 600px; /* Evita que el texto de la cabecera se estire demasiado a lo ancho */
+}
+
+/* Título con Oswald */
+.titulo-cabecera {
+    color: #f2b705; /* Color amarillo mostaza para el título */
+    font-family: 'Oswald', sans-serif; /* Aplica la fuente Oswald */
+    font-size: 2.8rem; /* Tamaño de letra grande */
+    font-weight: 700; /* Letra en negrita gruesa */
+    letter-spacing: 1px; /* Separa un poquito las letras entre ellas */
+    line-height: 1.2; /* Junta un poco las líneas de texto si hay varias */
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.8); /* Le da una sombra negra al texto para que resalte */
+}
+
+/* La breve descripción del restaurante */
+.menu-descripcion {
+    font-family: 'Roboto', sans-serif; /* Aplica la fuente Roboto */
+    font-size: 1.2rem; /* Tamaño de letra un poco más grande que el normal */
+    color: #ffffff; /* Color blanco */
+    opacity: 0.95; /* Lo hace un pelín transparente para suavizarlo */
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.8); /* Le da una sombrita para que se lea mejor */
+    line-height: 1.5; /* Separa el espacio entre las líneas de la descripción */
+}
+
+/* La tarjeta central gigante que imita la carta física */
+.carta-fondo {
+    background-color: #fcf9f2; /* Color crema clarito como si fuera papel */
+    border: none; /* Le quita los bordes a la caja */
+    box-shadow: 0 15px 40px rgba(0,0,0,0.6) !important; /* Le pone una sombra exterior oscura */
+}
+
+/* Estilos de los títulos de las categorías */
+.titulo-categoria {
+    font-family: 'Alfa Slab One', cursive; /* Aplica la letra gruesa de letrero americano */
+    color: #5c0f1c; /* Color burdeos para los títulos de sección */
+    letter-spacing: 1px; /* Separa un poco las letras */
+    text-transform: uppercase; /* Convierte todo el texto a mayúsculas automáticamente */
+}
+
+/* Separador amarillo debajo de cada sección */
+.separador-decorativo {
+    height: 3px; /* Grosor de la línea separadora */
+    background-color: #f2b705; /* Color amarillo mostaza */
+    width: 50%; /* La línea solo ocupa la mitad del ancho de la página */
+    margin: 30px auto; /* Centra la línea y le deja 30px de margen arriba y abajo */
+    border-radius: 5px; /* Redondea las puntas de la línea */
+}
+
+/* Estilo de cada plato individual */
+.plato-item {
+    border-bottom: 1px dashed #cccccc; /* Pone una línea de puntitos grises debajo de cada plato */
+    transition: all 0.2s ease-in-out; /* Prepara una animación rápida para cuando pasemos el ratón */
+}
+.plato-item:hover {
+    background-color: #f5f0e6; /* Cuando pasas el ratón, el fondo del plato se oscurece un pelín */
+    border-left: 4px solid #5c0f1c; /* Aparece una raya gruesa burdeos a la izquierda */
+    border-radius: 4px; /* Redondea un poquito las esquinas del fondo */
+}
+
+/* Tipografía para el nombre del plato */
+.nombre-plato {
+    font-family: 'Oswald', sans-serif; /* Letra Oswald para los nombres */
+    color: #2b2b2b; /* Color gris casi negro */
+    letter-spacing: 0.5px; /* Separa un pelin las letras */
+}
+
+.precio { 
+    color: #5c0f1c; /* Pone los precios en color burdeos */
+}
+
+.descripcion {
+    font-size: 0.95rem; /* Hace la letra de la descripción un pelin más pequeña */
+    line-height: 1.4; /* Espacio cómodo entre líneas para leer mejor */
+}
+
+.leyenda-final {
+    background-color: transparent; /* El fondo de la caja de alérgenos será transparente */
+    padding-top: 10px; /* Le deja un margen interior de 10px por arriba */
+}
+
+/* Estilos del botón de flecha para subir */
+.btn-subir {
+    position: fixed; /* Fija el botón en la pantalla, no se mueve al hacer scroll */
+    bottom: 30px; /* Lo separa 30 píxeles desde el borde de abajo */
+    right: 30px; /* Lo separa 30 píxeles desde el borde derecho */
+    background-color: #f2b705; /* Fondo del botón amarillo mostaza */
+    color: #1a1a1a; /* Color de la flechita */
+    width: 50px; /* Anchura del botón circular */
+    height: 50px; /* Altura del botón circular */
+    border-radius: 50%; /* Lo convierte en un círculo perfecto */
+    display: flex; /* Activa Flexbox para centrar el icono dentro del círculo */
+    justify-content: center; /* Centra horizontalmente el icono */
+    align-items: center; /* Centra verticalmente el icono */
+    text-decoration: none; /* Le quita la línea de subrayado que tienen los enlaces */
+    font-size: 1.5rem; /* Tamaño de la flechita interior */
+    transition: all 0.3s ease; /* Prepara animación suave para el hover */
+    z-index: 1000; /* Asegura que el botón siempre esté por encima del resto de elementos */
+}
+.btn-subir:hover {
+    background-color: #5c0f1c; /* Al pasar el ratón, el botón se vuelve burdeos */
+    color: #ffffff; /* La flechita se vuelve blanca */
+    transform: translateY(-5px); /* Hace que el botón dé un pequeño saltito hacia arriba */
+}
+
+/* Responsive para móvil y tablets */
+
+/* Regla para Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo-principal { max-width: 550px; } /* Hace el logo más pequeño para que no ocupe demasiado */
+    .titulo-cabecera { font-size: 2.2rem; } /* Reduce el tamaño del eslogan */
+    .menu-descripcion { font-size: 1.1rem; } /* Reduce un poco el texto de la descripción */
+}
+
+/* Regla para Móviles */
+@media (max-width: 767px) {
+    .logo-principal {
+        max-width: 550px; /* Deja que el logo se vea grande en el móvil */
+        margin: 0 auto; /* Centra el logo horizontalmente */
+    }
+    
+    .titulo-cabecera {
+        font-size: 2rem; /* Hace la letra del título más pequeña para el móvil */
+        text-align: center; /* Centra el texto del título */
+        line-height: 1.1; /* Junta un poco más las líneas del título */
+        margin-top: -15px; /* Sube el título para acercarlo más al logo y quitar hueco blanco */
+        word-wrap: break-word; /* Si hay una palabra muy larga, permite partirla */
+    }
+    
+    .menu-descripcion {
+        font-size: 1rem; /* Reduce el tamaño de letra al estándar */
+        text-align: center; /* Centra el texto de la descripción */
+    }
+
+    .carta-fondo {
+        width: 94% !important; /* La caja de los platos ocupará el 94% del ancho del móvil */
+        margin: 20px auto !important; /* Centra la caja dejando margen arriba y abajo */
+        padding: 20px 15px !important; /* Reduce los márgenes interiores para aprovechar la pantalla */
+    }
+    
+    .nombre-plato {
+        font-size: 1.2rem; /* Reduce un poco el tamaño del nombre de los platos */
+    }
+
+    .btn-subir {
+        width: 40px; /* Hace el botón flotante más pequeño */
+        height: 40px; /* Altura más pequeña */
+        bottom: 20px; /* Lo pega más al borde de abajo */
+        right: 20px; /* Lo pega más al borde derecho */
+        font-size: 1.2rem; /* Hace la flechita más pequeña */
+    }
+}

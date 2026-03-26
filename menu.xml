@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <plato tipo="Para Picar (Entrantes)">
+        <nombre>Lagrimitas de Pollo Rebozado</nombre>
+        <precio>6.50</precio>
+        <descripcion>Tiras de pechuga de pollo marinadas y fritas súper crujientes. Acompañadas de 3 salsas para dippear.</descripcion>
+        <calorias>520</calorias>
+        <caracteristicas>
+            <item>carne</item>
+            <item>huevo</item>
+            <item>sin gluten</item>
+        </caracteristicas>
+    </plato>
+    
+    <plato tipo="Para Picar (Entrantes)">
+        <nombre>Surtido de Croquetas de la Abuela</nombre>
+        <precio>6.50</precio>
+        <descripcion>6 unidades artesanas: jamón ibérico, cocido tradicional y nuestra variante especial de rabo de toro.</descripcion>
+        <calorias>580</calorias>
+        <caracteristicas>
+            <item>carne</item>
+            <item>lacteo</item>
+            <item>huevo</item>
+        </caracteristicas>
+    </plato>
+    
+    <plato tipo="Para Picar (Entrantes)">
+        <nombre>Patatas Bravas "Mayorito"</nombre>
+        <precio>4.50</precio>
+        <descripcion>Patatas doradas con nuestra salsa brava secreta y alioli suave.</descripcion>
+        <calorias>410</calorias>
+        <caracteristicas>
+            <item>vegano</item>
+            <item>picante</item>
+            <item>sin gluten</item>
+        </caracteristicas>
+    </plato>
+    
+    <plato tipo="Para Picar (Entrantes)">
+        <nombre>Nachos Supreme (Opción Vegana)</nombre>
+        <precio>6.50</precio>
+        <descripcion>Nachos con queso fundido (o queso vegano), guacamole, pico de gallo y jalapeños, junto a nuestras salsas caseras.</descripcion>
+        <calorias>650</calorias>
+        <caracteristicas>
+            <item>vegano</item>
+            <item>lacteo</item>
+            <item>sin gluten</item>
+        </caracteristicas>
+    </plato>
+    
+    <plato tipo="Para Picar (Entrantes)">
+        <nombre>Aros de Cebolla BBQ</nombre>
+        <precio>4.50</precio>
+        <descripcion>Aros de cebolla crujientes acompañados de nuestra salsa barbacoa casera.</descripcion>
+        <calorias>420</calorias>
+        <caracteristicas>
+            <item>vegano</item>
+            <item>soja</item>
+        </caracteristicas>
+    </plato>
+    
+    <plato tipo="Para Picar (Entrantes)">
+        <nombre>Fingers de Queso Mozzarella</nombre>
+        <precio>5.00</precio>
+        <descripcion>Palitos de queso mozzarella empanados con salsa de tomate.</descripcion>
+        <calorias>480</calorias>
+        <caracteristicas>
+            <item>lacteo</item>
+            <item>huevo</item>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="Nuestros Hot Dogs Especiales">
+        <nombre>Classic 'NY' Dog</nombre>
+        <precio>5.50</precio>
+        <descripcion>Salchicha tipo Frankfurt, ketchup, mostaza y cebolla crujiente en pan tierno.</descripcion>
+        <calorias>450</calorias>
+        <caracteristicas>
+            <item>carne</item>
+            <item>soja</item>
+        </caracteristicas>
+    </plato>
+    
+    <plato tipo="Nuestros Hot Dogs Especiales">
+        <nombre>El Vegano de Tofu y Heura</nombre>
+        <precio>6.50</precio>
+        <descripcion>Salchicha 100% vegetal a base de tofu y soja, aguacate, tomate fresco y mayonesa vegana.</descripcion>
+        <calorias>400</calorias>
+        <caracteristicas>
+            <item>vegano</item>
+            <item>soja</item>
+        </caracteristicas>
+    </plato>
+    
+    <plato tipo="Nuestros Hot Dogs Especiales">
+        <nombre>Chili Cheese Dog</nombre>
+        <precio>7.00</precio>
+        <descripcion>Perrito bañado en chili con carne picante y abundante queso cheddar fundido.</descripcion>
+        <calorias>720</calorias>
+        <caracteristicas>
+            <item>carne</item>
+            <item>lacteo</item>
+            <item>picante</item>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="Nuestros Hot Dogs Especiales">
+        <nombre>Bacon BBQ Dog</nombre>
+        <precio>6.80</precio>
+        <descripcion>Salchicha envuelta en bacon crujiente, salsa barbacoa y cebolla caramelizada.</descripcion>
+        <calorias>610</calorias>
+        <caracteristicas>
+            <item>carne</item>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="Nuestros Hot Dogs Especiales">
+        <nombre>Spicy Mexicano</nombre>
+        <precio>6.50</precio>
+        <descripcion>Salchicha marinada, guacamole, jalapeños y un toque de salsa picante secreta.</descripcion>
+        <calorias>500</calorias>
+        <caracteristicas>
+            <item>carne</item>
+            <item>picante</item>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="Nuestros Hot Dogs Especiales">
+        <nombre>El Alemán</nombre>
+        <precio>6.00</precio>
+        <descripcion>Salchicha Alemana original, chucrut y mostaza antigua.</descripcion>
+        <calorias>520</calorias>
+        <caracteristicas>
+            <item>carne</item>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="Extras para tu Perrito">
+        <nombre>Extra de Bacon Crujiente</nombre>
+        <precio>1.00</precio>
+        <descripcion>Añade tiras de bacon ahumado extra crujiente a tu perrito.</descripcion>
+        <calorias>120</calorias>
+        <caracteristicas>
+            <item>carne</item>
+            <item>sin gluten</item>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="Extras para tu Perrito">
+        <nombre>Extra Queso Cheddar</nombre>
+        <precio>1.50</precio>
+        <descripcion>Baña tu plato en nuestro queso cheddar fundido especial.</descripcion>
+        <calorias>150</calorias>
+        <caracteristicas>
+            <item>lacteo</item>
+            <item>sin gluten</item>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="Extras para tu Perrito">
+        <nombre>Extra Cebolla Caramelizada o Crujiente</nombre>
+        <precio>1.00</precio>
+        <descripcion>Elige entre cebolla pochada dulce o trocitos de cebolla frita crujiente.</descripcion>
+        <calorias>60</calorias>
+        <caracteristicas>
+            <item>vegano</item>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="Salsas para Dippear">
+        <nombre>Salsas Clásicas para Dippear</nombre>
+        <precio>0.50</precio>
+        <descripcion>Ketchup, Mayonesa, Mostaza clásica o Alioli casero.</descripcion>
+        <calorias>80</calorias>
+        <caracteristicas>
+            <item>vegano</item>
+            <item>huevo</item>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="Salsas para Dippear">
+        <nombre>Salsas Especiales Mayorito</nombre>
+        <precio>1.00</precio>
+        <descripcion>Elige entre: Barbacoa, Bacon Ahumado, Queso Azul o Mostaza y Miel.</descripcion>
+        <calorias>120</calorias>
+        <caracteristicas>
+            <item>lacteo</item>
+            <item>huevo</item>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="Salsas para Dippear">
+        <nombre>Salsas Picantes Extremos</nombre>
+        <precio>1.00</precio>
+        <descripcion>Sriracha, Brava intensa o nuestra salsa "Fuego" secreta. ¡Pregunta al personal!</descripcion>
+        <calorias>50</calorias>
+        <caracteristicas>
+            <item>vegano</item>
+            <item>picante</item>
+            <item>sin gluten</item>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="Bebidas y Combinados">
+        <nombre>Refrescos Variados</nombre>
+        <precio>2.20</precio>
+        <descripcion>Coca-Cola, Fanta, Sprite, Nestea... ¡Consulta al personal las opciones!</descripcion>
+        <calorias>140</calorias>
+        <caracteristicas>
+            <item>vegano</item>
+            <item>sin gluten</item>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="Bebidas y Combinados">
+        <nombre>Zumos Infantiles y Agua</nombre>
+        <precio>1.50</precio>
+        <descripcion>Zumos de piña, melocotón o naranja, y botellas de agua mineral 0.5L.</descripcion>
+        <calorias>90</calorias>
+        <caracteristicas>
+            <item>vegano</item>
+            <item>sin gluten</item>
+        </caracteristicas>
+    </plato>
+    
+    <plato tipo="Bebidas y Combinados">
+        <nombre>Cervezas de Barril y Botella</nombre>
+        <precio>2.50</precio>
+        <descripcion>Estrella Galicia, Radler, Cerveza 0,0 y Artesanales de la casa.</descripcion>
+        <calorias>150</calorias>
+        <caracteristicas>
+            <item>vegano</item>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="Bebidas y Combinados">
+        <nombre>Copas y Combinados (Adultos)</nombre>
+        <precio>6.50</precio>
+        <descripcion>Ginebra, Ron, Whisky o Vodka con tu refresco favorito. Solo mayores de 18 años.</descripcion>
+        <calorias>250</calorias>
+        <caracteristicas>
+            <item>vegano</item>
+            <item>sin gluten</item>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="Postres Caseros">
+        <nombre>Cheesecake Clásico</nombre>
+        <precio>4.50</precio>
+        <descripcion>Tarta de queso al horno casera con un toque fundido por dentro, con base de galleta y sirope de fresa.</descripcion>
+        <calorias>450</calorias>
+        <caracteristicas>
+            <item>lacteo</item>
+            <item>huevo</item>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="Postres Caseros">
+        <nombre>Coulant de Chocolate</nombre>
+        <precio>5.00</precio>
+        <descripcion>Bizcocho esponjoso con interior de chocolate con leche, fundido y caliente.</descripcion>
+        <calorias>550</calorias>
+        <caracteristicas>
+            <item>lacteo</item>
+            <item>huevo</item>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="Postres Caseros">
+        <nombre>Copa de Helado Artesano</nombre>
+        <precio>3.50</precio>
+        <descripcion>Dos bolas a elegir: vainilla, fresa, chocolate o turrón (contiene almendras).</descripcion>
+        <calorias>320</calorias>
+        <caracteristicas>
+            <item>lacteo</item>
+            <item>frutos secos</item>
+            <item>sin gluten</item>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="Postres Caseros">
+        <nombre>Brownie Vegano con Nueces</nombre>
+        <precio>4.50</precio>
+        <descripcion>Bizcocho de chocolate intenso, sin ingredientes de origen animal con nueces.</descripcion>
+        <calorias>400</calorias>
+        <caracteristicas>
+            <item>vegano</item>
+            <item>frutos secos</item>
+            <item>soja</item>
+        </caracteristicas>
+    </plato>
+</menu>
