@@ -69,7 +69,7 @@ foreach ($menu_xml->plato as $plato) {
     return '<i class="fa-solid fa-utensils text-secondary"></i>';
 }
 ?>
-?>
+
 
 <!DOCTYPE html>
 <html lang="es">
